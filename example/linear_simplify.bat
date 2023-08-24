@@ -1,0 +1,2 @@
+%%     executable,               config,         input image,  input mesh,               output directory,  error bound,  mode
+start ./exeGCLF-ImageTriSimp.exe "./config.json" "./cat.png" "./bounded_linear_mesh.obj" "./"               "10.0"        "linear"

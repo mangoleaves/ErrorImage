@@ -1,0 +1,23 @@
+{
+  "color_type": "constant",
+  "error_type": "l2",
+  "Np": 20,
+  "mutation_scale": 0.7,
+  "crossover_rate": 0.9,
+  "convergence_rate": 0.01,
+  "max_consecutive_iter": 5,
+  "max_DE_iter": 30,
+  "max_valence": 10,
+  "paramLinear": {
+    "min_angle": 10.0,
+    "split_min_angle": 5.0,
+    "max_simplify_iter": 20,
+    "convergence_collapse_number": 10
+  },
+  "paramCurved": {
+    "min_angle": 10.0,
+    "max_curvature": 135.0,
+    "max_simplify_iter": 20,
+    "convergence_collapse_number": 10
+  }
+}
